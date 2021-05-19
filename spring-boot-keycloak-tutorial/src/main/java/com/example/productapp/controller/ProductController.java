@@ -11,10 +11,11 @@ import java.util.Arrays;
 @RestController
 class ProductController {
 
-    @GetMapping(path = "/products")
+    @GetMapping(path = "/home")
     public String getProducts(Principal principal){
         return "Hello " + principal.getName() +
                 System.lineSeparator() +
+                "You are " + principal +
                 Arrays.asList("iPad", "iPhone", "iPod");
     }
 
@@ -23,4 +24,5 @@ class ProductController {
         request.logout();
         return "You are now logout";
     }
+
 }

@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0094363e-8bb5-4263-b41e-bfe09d115373" name="Default Changelist" comment="" />
+    <list default="true" id="0094363e-8bb5-4263-b41e-bfe09d115373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/KotlinDemoApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/ServletInitializer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/com/example/kotlindemo/KotlinDemoApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productapp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productapp/controller/ProductController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +33,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1sifOtcuysR3SfzwPgmoqwwSsLs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,10 +53,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kotlin-demo" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2658385" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -46,19 +68,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="product-app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.productapp.ProductAppApplication" />
@@ -77,6 +86,7 @@
       <updated>1621360306491</updated>
       <workItem from="1621360311426" duration="6212000" />
       <workItem from="1621369066973" duration="673000" />
+      <workItem from="1621449294359" duration="1597000" />
     </task>
     <servers />
   </component>
