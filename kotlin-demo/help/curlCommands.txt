@@ -1,0 +1,18 @@
+# Create an Article
+curl -i -H "Content-Type: application/json" -X POST \
+-d '{"title": "How to learn Spring framework", "content": "Resources to learn Spring framework"}' \
+http://localhost:8001/api/articles
+
+# Get all Articles
+curl -i -H 'Accept: application/json' http://localhost:8001/api/articles
+
+# Get an Article by id
+curl -i -H 'Accept: application/json' http://localhost:8001/api/articles/1
+
+# Update an Article
+curl -i -H "Content-Type: application/json" -X PUT \
+-d '{"title": "Learning Spring Boot", "content": "Some resources to learn Spring Boot"}' \
+http://localhost:8001/api/articles/1
+
+# Delete an Article
+curl -i -X DELETE http://localhost:8001/api/articles/1
