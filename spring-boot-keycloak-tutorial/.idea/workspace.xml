@@ -5,21 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0094363e-8bb5-4263-b41e-bfe09d115373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/KotlinDemoApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/ServletInitializer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/sql/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/test/kotlin/com/example/kotlindemo/KotlinDemoApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/help/curlCommands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/data/Article.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/repository/ArticleRepostory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/web/ArticleController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-demo/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/data/Message.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/repository/MessageRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/service/MessageService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/kotlin/com/example/kotlindemo/web/MessageResource.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/db/changelog/db.changelog-master.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-demo/src/main/resources/sql/schema.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productapp/ProductAppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productapp/ProductAppApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productapp/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productapp/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/productapp/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/productapp/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +89,8 @@
       <workItem from="1621360311426" duration="6212000" />
       <workItem from="1621369066973" duration="673000" />
       <workItem from="1621449294359" duration="1597000" />
+      <workItem from="1621535944983" duration="682000" />
+      <workItem from="1621536765814" duration="1441000" />
     </task>
     <servers />
   </component>

@@ -24,11 +24,14 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
 	// Keycloak
+	implementation("org.keycloak:keycloak-spring-boot-starter:13.0.0")
 	implementation("org.keycloak:keycloak-model-jpa:13.0.0")
-	// Liquibase
-//	implementation("org.liquibase:liquibase-core:3.8.4")
 
-	runtimeOnly("com.h2database:h2")
+	// JPA Data (We are going to use Repositories, Entities, Hibernate, etc...)
+	implementation ("org.springframework.boot:spring-boot-starter-data-jpa")
+	// Use MySQL Connector-J
+	implementation ("mysql:mysql-connector-java")
+
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
